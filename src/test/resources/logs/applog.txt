@@ -1,0 +1,9 @@
+INFO    2024-03-03 18:13:32,662 [main] base.BaseTest  - ----Test Execution started----
+INFO    2024-03-03 18:13:32,662 [main] base.BaseTest  - Config Properties file loaded !!!
+INFO    2024-03-03 18:13:32,662 [main] base.BaseTest  - OR Properties file loaded !!!
+INFO    2024-03-03 18:13:34,996 [main] base.BaseTest  - Firefox browser launched !!!
+INFO    2024-03-03 18:13:35,673 [main] base.BaseTest  - Navigated to : https://www.lambdatest.com/selenium-playground/input-form-demo
+INFO    2024-03-03 18:13:35,960 [main] base.BaseTest  - DB Connection established !!!
+INFO    2024-03-03 18:13:37,434 [main] base.BaseTest  - Test Execution completed !!!
+INFO    2024-03-03 18:13:37,436 [main] base.BaseTest  - Test Execution completed !!!
+INFO    2024-03-03 18:13:37,437 [main] base.BaseTest  - Test Execution completed !!!

@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-skipped">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\mukul\eclipse-workspace\Selenium_101\src\test\resources\runner\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,  10 skipped,  10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SliderDemoTest" class="method navigator-link" hash-for-method="sliderDemoTest(firefox, n, https://www.lambdatest.com/selenium-playground/)">sliderDemoTest(firefox, n, https://www.lambdatest.com/selenium-playground/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SliderDemoTest" class="method navigator-link" hash-for-method="sliderDemoTest(chrome, n, https://www.lambdatest.com/selenium-playground/)">sliderDemoTest(chrome, n, https://www.lambdatest.com/selenium-playground/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.InputFormTest" class="method navigator-link" hash-for-method="testEmptyFormSubmission(firefox, n, https://www.lambdatest.com/selenium-playground/input-form-demo)">testEmptyFormSubmission(firefox, n, https://www.lambdatest.com/selenium-playground/input-form-demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.InputFormTest" class="method navigator-link" hash-for-method="testEmptyFormSubmission(chrome, n, https://www.lambdatest.com/selenium-playground/input-form-demo)">testEmptyFormSubmission(chrome, n, https://www.lambdatest.com/selenium-playground/input-form-demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.InputFormTest" class="method navigator-link" hash-for-method="testFilledFormSubmission(chrome, n, https://www.lambdatest.com/selenium-playground/input-form-demo)">testFilledFormSubmission(chrome, n, https://www.lambdatest.com/selenium-playground/input-form-demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.InputFormTest" class="method navigator-link" hash-for-method="testFilledFormSubmission(firefox, n, https://www.lambdatest.com/selenium-playground/input-form-demo)">testFilledFormSubmission(firefox, n, https://www.lambdatest.com/selenium-playground/input-form-demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SimpleFormTest" class="method navigator-link" hash-for-method="validateSimpleFormPageURL(chrome, n, https://www.lambdatest.com/selenium-playground/)">validateSimpleFormPageURL(chrome, n, https://www.lambdatest.com/selenium-playground/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SimpleFormTest" class="method navigator-link" hash-for-method="validateSimpleFormPageURL(firefox, n, W)">validateSimpleFormPageURL(firefox, n, W)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SimpleFormTest" class="method navigator-link" hash-for-method="validateSimpleFormSubmission(firefox, n, https://www.lambdatest.com/selenium-playground/)">validateSimpleFormSubmission(firefox, n, https://www.lambdatest.com/selenium-playground/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SimpleFormTest" class="method navigator-link" hash-for-method="validateSimpleFormSubmission(chrome, n, https://www.lambdatest.com/selenium-playground/)">validateSimpleFormSubmission(chrome, n, https://www.lambdatest.com/selenium-playground/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SliderDemoTest" class="method navigator-link" hash-for-method="sliderDemoTest(firefox, y, https://www.lambdatest.com/selenium-playground/)">sliderDemoTest(firefox, y, https://www.lambdatest.com/selenium-playground/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SliderDemoTest" class="method navigator-link" hash-for-method="sliderDemoTest(chrome, y, https://www.lambdatest.com/selenium-playground/)">sliderDemoTest(chrome, y, https://www.lambdatest.com/selenium-playground/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.InputFormTest" class="method navigator-link" hash-for-method="testEmptyFormSubmission(firefox, y, https://www.lambdatest.com/selenium-playground/input-form-demo)">testEmptyFormSubmission(firefox, y, https://www.lambdatest.com/selenium-playground/input-form-demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.InputFormTest" class="method navigator-link" hash-for-method="testEmptyFormSubmission(chrome, y, https://www.lambdatest.com/selenium-playground/input-form-demo)">testEmptyFormSubmission(chrome, y, https://www.lambdatest.com/selenium-playground/input-form-demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.InputFormTest" class="method navigator-link" hash-for-method="testFilledFormSubmission(chrome, y, https://www.lambdatest.com/selenium-playground/input-form-demo)">testFilledFormSubmission(chrome, y, https://www.lambdatest.com/selenium-playground/input-form-demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.InputFormTest" class="method navigator-link" hash-for-method="testFilledFormSubmission(firefox, y, https://www.lambdatest.com/selenium-playground/input-form-demo)">testFilledFormSubmission(firefox, y, https://www.lambdatest.com/selenium-playground/input-form-demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SimpleFormTest" class="method navigator-link" hash-for-method="validateSimpleFormPageURL(chrome, y, https://www.lambdatest.com/selenium-playground/)">validateSimpleFormPageURL(chrome, y, https://www.lambdatest.com/selenium-playground/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SimpleFormTest" class="method navigator-link" hash-for-method="validateSimpleFormPageURL(firefox, y, https://www.lambdatest.com/selenium-playground/)">validateSimpleFormPageURL(firefox, y, https://www.lambdatest.com/selenium-playground/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SimpleFormTest" class="method navigator-link" hash-for-method="validateSimpleFormSubmission(firefox, y, https://www.lambdatest.com/selenium-playground/)">validateSimpleFormSubmission(firefox, y, https://www.lambdatest.com/selenium-playground/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SimpleFormTest" class="method navigator-link" hash-for-method="validateSimpleFormSubmission(chrome, y, https://www.lambdatest.com/selenium-playground/)">validateSimpleFormSubmission(chrome, y, https://www.lambdatest.com/selenium-playground/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.SliderDemoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sliderDemoTest(firefox, n, https://www.lambdatest.com/selenium-playground/)">
+                  </a> <!-- sliderDemoTest(firefox, n, https://www.lambdatest.com/selenium-playground/) -->
+                  <span class="method-name">sliderDemoTest</span>
+                  <span class="parameters">(firefox,n,https://www.lambdatest.com/selenium-playground/)</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the Run Mode is NO
+	at testCases.SliderDemoTest.sliderDemoTest(SliderDemoTest.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sliderDemoTest(chrome, n, https://www.lambdatest.com/selenium-playground/)">
+                  </a> <!-- sliderDemoTest(chrome, n, https://www.lambdatest.com/selenium-playground/) -->
+                  <span class="method-name">sliderDemoTest</span>
+                  <span class="parameters">(chrome,n,https://www.lambdatest.com/selenium-playground/)</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the Run Mode is NO
+	at testCases.SliderDemoTest.sliderDemoTest(SliderDemoTest.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.InputFormTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyFormSubmission(firefox, n, https://www.lambdatest.com/selenium-playground/input-form-demo)">
+                  </a> <!-- testEmptyFormSubmission(firefox, n, https://www.lambdatest.com/selenium-playground/input-form-demo) -->
+                  <span class="method-name">testEmptyFormSubmission</span>
+                  <span class="parameters">(firefox,n,https://www.lambdatest.com/selenium-playground/input-form-demo)</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the Run Mode is No
+	at testCases.InputFormTest.testEmptyFormSubmission(InputFormTest.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyFormSubmission(chrome, n, https://www.lambdatest.com/selenium-playground/input-form-demo)">
+                  </a> <!-- testEmptyFormSubmission(chrome, n, https://www.lambdatest.com/selenium-playground/input-form-demo) -->
+                  <span class="method-name">testEmptyFormSubmission</span>
+                  <span class="parameters">(chrome,n,https://www.lambdatest.com/selenium-playground/input-form-demo)</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the Run Mode is No
+	at testCases.InputFormTest.testEmptyFormSubmission(InputFormTest.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFilledFormSubmission(chrome, n, https://www.lambdatest.com/selenium-playground/input-form-demo)">
+                  </a> <!-- testFilledFormSubmission(chrome, n, https://www.lambdatest.com/selenium-playground/input-form-demo) -->
+                  <span class="method-name">testFilledFormSubmission</span>
+                  <span class="parameters">(chrome,n,https://www.lambdatest.com/selenium-playground/input-form-demo)</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the Run Mode is No
+	at testCases.InputFormTest.testFilledFormSubmission(InputFormTest.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFilledFormSubmission(firefox, n, https://www.lambdatest.com/selenium-playground/input-form-demo)">
+                  </a> <!-- testFilledFormSubmission(firefox, n, https://www.lambdatest.com/selenium-playground/input-form-demo) -->
+                  <span class="method-name">testFilledFormSubmission</span>
+                  <span class="parameters">(firefox,n,https://www.lambdatest.com/selenium-playground/input-form-demo)</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the Run Mode is No
+	at testCases.InputFormTest.testFilledFormSubmission(InputFormTest.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.SimpleFormTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSimpleFormPageURL(chrome, n, https://www.lambdatest.com/selenium-playground/)">
+                  </a> <!-- validateSimpleFormPageURL(chrome, n, https://www.lambdatest.com/selenium-playground/) -->
+                  <span class="method-name">validateSimpleFormPageURL</span>
+                  <span class="parameters">(chrome,n,https://www.lambdatest.com/selenium-playground/)</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the Run Mode is No
+	at testCases.SimpleFormTest.validateSimpleFormPageURL(SimpleFormTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSimpleFormPageURL(firefox, n, W)">
+                  </a> <!-- validateSimpleFormPageURL(firefox, n, W) -->
+                  <span class="method-name">validateSimpleFormPageURL</span>
+                  <span class="parameters">(firefox,n,W)</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the Run Mode is No
+	at testCases.SimpleFormTest.validateSimpleFormPageURL(SimpleFormTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSimpleFormSubmission(firefox, n, https://www.lambdatest.com/selenium-playground/)">
+                  </a> <!-- validateSimpleFormSubmission(firefox, n, https://www.lambdatest.com/selenium-playground/) -->
+                  <span class="method-name">validateSimpleFormSubmission</span>
+                  <span class="parameters">(firefox,n,https://www.lambdatest.com/selenium-playground/)</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the Run Mode is No
+	at testCases.SimpleFormTest.validateSimpleFormSubmission(SimpleFormTest.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSimpleFormSubmission(chrome, n, https://www.lambdatest.com/selenium-playground/)">
+                  </a> <!-- validateSimpleFormSubmission(chrome, n, https://www.lambdatest.com/selenium-playground/) -->
+                  <span class="method-name">validateSimpleFormSubmission</span>
+                  <span class="parameters">(chrome,n,https://www.lambdatest.com/selenium-playground/)</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the Run Mode is No
+	at testCases.SimpleFormTest.validateSimpleFormSubmission(SimpleFormTest.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.SliderDemoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sliderDemoTest(firefox, y, https://www.lambdatest.com/selenium-playground/)">
+                  </a> <!-- sliderDemoTest(firefox, y, https://www.lambdatest.com/selenium-playground/) -->
+                  <span class="method-name">sliderDemoTest</span>
+                  <span class="parameters">(firefox,y,https://www.lambdatest.com/selenium-playground/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sliderDemoTest(chrome, y, https://www.lambdatest.com/selenium-playground/)">
+                  </a> <!-- sliderDemoTest(chrome, y, https://www.lambdatest.com/selenium-playground/) -->
+                  <span class="method-name">sliderDemoTest</span>
+                  <span class="parameters">(chrome,y,https://www.lambdatest.com/selenium-playground/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.InputFormTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyFormSubmission(firefox, y, https://www.lambdatest.com/selenium-playground/input-form-demo)">
+                  </a> <!-- testEmptyFormSubmission(firefox, y, https://www.lambdatest.com/selenium-playground/input-form-demo) -->
+                  <span class="method-name">testEmptyFormSubmission</span>
+                  <span class="parameters">(firefox,y,https://www.lambdatest.com/selenium-playground/input-form-demo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyFormSubmission(chrome, y, https://www.lambdatest.com/selenium-playground/input-form-demo)">
+                  </a> <!-- testEmptyFormSubmission(chrome, y, https://www.lambdatest.com/selenium-playground/input-form-demo) -->
+                  <span class="method-name">testEmptyFormSubmission</span>
+                  <span class="parameters">(chrome,y,https://www.lambdatest.com/selenium-playground/input-form-demo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFilledFormSubmission(chrome, y, https://www.lambdatest.com/selenium-playground/input-form-demo)">
+                  </a> <!-- testFilledFormSubmission(chrome, y, https://www.lambdatest.com/selenium-playground/input-form-demo) -->
+                  <span class="method-name">testFilledFormSubmission</span>
+                  <span class="parameters">(chrome,y,https://www.lambdatest.com/selenium-playground/input-form-demo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFilledFormSubmission(firefox, y, https://www.lambdatest.com/selenium-playground/input-form-demo)">
+                  </a> <!-- testFilledFormSubmission(firefox, y, https://www.lambdatest.com/selenium-playground/input-form-demo) -->
+                  <span class="method-name">testFilledFormSubmission</span>
+                  <span class="parameters">(firefox,y,https://www.lambdatest.com/selenium-playground/input-form-demo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.SimpleFormTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSimpleFormPageURL(chrome, y, https://www.lambdatest.com/selenium-playground/)">
+                  </a> <!-- validateSimpleFormPageURL(chrome, y, https://www.lambdatest.com/selenium-playground/) -->
+                  <span class="method-name">validateSimpleFormPageURL</span>
+                  <span class="parameters">(chrome,y,https://www.lambdatest.com/selenium-playground/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSimpleFormPageURL(firefox, y, https://www.lambdatest.com/selenium-playground/)">
+                  </a> <!-- validateSimpleFormPageURL(firefox, y, https://www.lambdatest.com/selenium-playground/) -->
+                  <span class="method-name">validateSimpleFormPageURL</span>
+                  <span class="parameters">(firefox,y,https://www.lambdatest.com/selenium-playground/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSimpleFormSubmission(firefox, y, https://www.lambdatest.com/selenium-playground/)">
+                  </a> <!-- validateSimpleFormSubmission(firefox, y, https://www.lambdatest.com/selenium-playground/) -->
+                  <span class="method-name">validateSimpleFormSubmission</span>
+                  <span class="parameters">(firefox,y,https://www.lambdatest.com/selenium-playground/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSimpleFormSubmission(chrome, y, https://www.lambdatest.com/selenium-playground/)">
+                  </a> <!-- validateSimpleFormSubmission(chrome, y, https://www.lambdatest.com/selenium-playground/) -->
+                  <span class="method-name">validateSimpleFormSubmission</span>
+                  <span class="parameters">(chrome,y,https://www.lambdatest.com/selenium-playground/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\mukul\eclipse-workspace\Selenium_101\src\test\resources\runner\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Simple Form Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.SimpleFormTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Simple Form Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Slider Demo Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.SliderDemoTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Slider Demo Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Input Form Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.InputFormTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Input Form Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Simple Form Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Slider Demo Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Input Form Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'sliderDemoTest')
+data.setCell(0, 2, 'testCases.SliderDemoTest')
+data.setCell(0, 3, 5355);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'sliderDemoTest')
+data.setCell(1, 2, 'testCases.SliderDemoTest')
+data.setCell(1, 3, 5040);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateSimpleFormPageURL')
+data.setCell(2, 2, 'testCases.SimpleFormTest')
+data.setCell(2, 3, 4984);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateSimpleFormPageURL')
+data.setCell(3, 2, 'testCases.SimpleFormTest')
+data.setCell(3, 3, 4708);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testFilledFormSubmission')
+data.setCell(4, 2, 'testCases.InputFormTest')
+data.setCell(4, 3, 4011);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateSimpleFormSubmission')
+data.setCell(5, 2, 'testCases.SimpleFormTest')
+data.setCell(5, 3, 3877);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testEmptyFormSubmission')
+data.setCell(6, 2, 'testCases.InputFormTest')
+data.setCell(6, 3, 3620);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testFilledFormSubmission')
+data.setCell(7, 2, 'testCases.InputFormTest')
+data.setCell(7, 3, 2560);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validateSimpleFormSubmission')
+data.setCell(8, 2, 'testCases.SimpleFormTest')
+data.setCell(8, 3, 2215);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testEmptyFormSubmission')
+data.setCell(9, 2, 'testCases.InputFormTest')
+data.setCell(9, 3, 1850);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateSimpleFormPageURL')
+data.setCell(10, 2, 'testCases.SimpleFormTest')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validateSimpleFormPageURL')
+data.setCell(11, 2, 'testCases.SimpleFormTest')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validateSimpleFormSubmission')
+data.setCell(12, 2, 'testCases.SimpleFormTest')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testEmptyFormSubmission')
+data.setCell(13, 2, 'testCases.InputFormTest')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validateSimpleFormSubmission')
+data.setCell(14, 2, 'testCases.SimpleFormTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'sliderDemoTest')
+data.setCell(15, 2, 'testCases.SliderDemoTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'sliderDemoTest')
+data.setCell(16, 2, 'testCases.SliderDemoTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testEmptyFormSubmission')
+data.setCell(17, 2, 'testCases.InputFormTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testFilledFormSubmission')
+data.setCell(18, 2, 'testCases.InputFormTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testFilledFormSubmission')
+data.setCell(19, 2, 'testCases.InputFormTest')
+data.setCell(19, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SimpleFormTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateSimpleFormPageURL(chrome, y, https://www.lambdatest.com/selenium-playground/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4710 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">validateSimpleFormPageURL(firefox, y, https://www.lambdatest.com/selenium-playground/)</span>
+                <span class="method-start">4835 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9821 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">validateSimpleFormPageURL(chrome, n, https://www.lambdatest.com/selenium-playground/)</span>
+                <span class="method-start">10438 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10440 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">validateSimpleFormPageURL(firefox, n, W)</span>
+                <span class="method-start">10440 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10441 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">validateSimpleFormSubmission(chrome, y, https://www.lambdatest.com/selenium-playground/)</span>
+                <span class="method-start">10463 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12679 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">validateSimpleFormSubmission(firefox, y, https://www.lambdatest.com/selenium-playground/)</span>
+                <span class="method-start">12801 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16679 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">validateSimpleFormSubmission(chrome, n, https://www.lambdatest.com/selenium-playground/)</span>
+                <span class="method-start">17294 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17296 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">validateSimpleFormSubmission(firefox, n, https://www.lambdatest.com/selenium-playground/)</span>
+                <span class="method-start">17296 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17297 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SliderDemoTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sliderDemoTest(chrome, y, https://www.lambdatest.com/selenium-playground/)</span>
+                <span class="method-start">17342 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22383 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">sliderDemoTest(firefox, y, https://www.lambdatest.com/selenium-playground/)</span>
+                <span class="method-start">22384 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27741 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">sliderDemoTest(chrome, n, https://www.lambdatest.com/selenium-playground/)</span>
+                <span class="method-start">27742 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27743 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">sliderDemoTest(firefox, n, https://www.lambdatest.com/selenium-playground/)</span>
+                <span class="method-start">27743 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27744 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.InputFormTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testEmptyFormSubmission(chrome, y, https://www.lambdatest.com/selenium-playground/input-form-demo)</span>
+                <span class="method-start">27765 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29616 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testEmptyFormSubmission(firefox, y, https://www.lambdatest.com/selenium-playground/input-form-demo)</span>
+                <span class="method-start">29743 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33363 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testEmptyFormSubmission(chrome, n, https://www.lambdatest.com/selenium-playground/input-form-demo)</span>
+                <span class="method-start">34002 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testEmptyFormSubmission(firefox, n, https://www.lambdatest.com/selenium-playground/input-form-demo)</span>
+                <span class="method-start">34004 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34004 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34005 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testFilledFormSubmission(chrome, y, https://www.lambdatest.com/selenium-playground/input-form-demo)</span>
+                <span class="method-start">34022 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36583 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testFilledFormSubmission(firefox, y, https://www.lambdatest.com/selenium-playground/input-form-demo)</span>
+                <span class="method-start">36699 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">40711 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testFilledFormSubmission(chrome, n, https://www.lambdatest.com/selenium-playground/input-form-demo)</span>
+                <span class="method-start">41475 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41476 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testFilledFormSubmission(firefox, n, https://www.lambdatest.com/selenium-playground/input-form-demo)</span>
+                <span class="method-start">41476 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41477 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

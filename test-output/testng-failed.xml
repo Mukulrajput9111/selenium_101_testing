@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Simple Form Test(failed)">
+    <classes>
+      <class name="testCases.SimpleFormTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validateSimpleFormSubmission" invocation-numbers="2 3"/>
+          <include name="validateSimpleFormPageURL" invocation-numbers="2 3"/>
+        </methods>
+      </class> <!-- testCases.SimpleFormTest -->
+    </classes>
+  </test> <!-- Simple Form Test(failed) -->
+  <test thread-count="5" name="Slider Demo Test(failed)">
+    <classes>
+      <class name="testCases.SliderDemoTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="sliderDemoTest" invocation-numbers="2 3"/>
+        </methods>
+      </class> <!-- testCases.SliderDemoTest -->
+    </classes>
+  </test> <!-- Slider Demo Test(failed) -->
+  <test thread-count="5" name="Input Form Test(failed)">
+    <classes>
+      <class name="testCases.InputFormTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testFilledFormSubmission" invocation-numbers="2 3"/>
+          <include name="testEmptyFormSubmission" invocation-numbers="2 3"/>
+        </methods>
+      </class> <!-- testCases.InputFormTest -->
+    </classes>
+  </test> <!-- Input Form Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
